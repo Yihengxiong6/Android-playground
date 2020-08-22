@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!--Attention! here goes all the sub views, this is the start of the FrameLayout body.-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="top|left"
+        android:background="#f44336"
+        android:padding="10dp"
+        android:text="Top Left" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="top|center_horizontal"
+        android:background="#E91E63"
+        android:padding="10dp"
+        android:text="Top Center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="top|right"
+        android:background="#9C27B0"
+        android:padding="10dp"
+        android:text="Top Right" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_vertical|left"
+        android:background="#673AB7"
+        android:padding="10dp"
+        android:text="Center Left" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#3F51B5"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:padding="10dp"
+        android:text="Center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_vertical|right"
+        android:background="#2196F3"
+        android:padding="10dp"
+        android:text="Center Right" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="bottom|left"
+        android:background="#03A9F4"
+        android:padding="10dp"
+        android:text="Bottom Left" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="#00BCD4"
+        android:padding="10dp"
+        android:text="Bottom Center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="bottom|right"
+        android:background="#009688"
+        android:padding="10dp"
+        android:text="Bottom Right" />
+
+    <!--Attention! This is the end of the FrameLayout body.-->
+</FrameLayout>
